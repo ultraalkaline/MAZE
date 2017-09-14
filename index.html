@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- metadata -->
+        <meta name="description" content="DON'T GET LOST">
+        <meta name="keywords" content="MAZE,maze,MAZEMUZIK,mazemuzik,jovan polus,jovan,polus,hiphop beats,hiphop,beats,hiphop music,music">
+        <meta name="author" content="MAZE">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- title -->
+        <title>ＭＡＺＥ</title>
+
+        <!-- main css stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- jQuery framework -->
+        <script src="js/lib/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+        <style>
+            /* initial background, just in case */
+            html, body {
+                background: #121212;
+            }
+        </style>
+
+        <!-- p5.js framework -->
+        <script src="js/lib/p5.js" type="text/javascript"></script>
+        <script src="js/lib/p5.dom.js" type="text/javascript"></script>
+        <script src="js/lib/p5.sound.js" type="text/javascript"></script>
+
+        <!-- main script -->
+        <script src="js/main.js" type="text/javascript"></script>
+        <!-- p5.js sketch -->
+        <script src="js/sketch.js" type="text/javascript"></script>
+        <script src="js/drop.js" type="text/javascript"></script>
+
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="css/noscript.css">
+        </noscript>
+    </head>
+
+    <body>
+        <div id="bg"></div>
+
+        <div id="header">
+            <div id="menu-container">
+                <ul id="menu-bar-1" class="menu-bar">
+                    <li class="active"><a id="home-anchor" role="button" class="menu-item">home</a></li>
+                    <li class="menu-bar-separator">&#124;</li>
+                    <li><a id="about-anchor" role="button" class="menu-item">about</a></li>
+                </ul>
+                <div title="start/stop the rain" id="logo"></div>
+                <ul id="menu-bar-2" class="menu-bar">
+                    <li><a id="beats-anchor" role="button" class="menu-item">beats</a></li>
+                    <li class="menu-bar-separator">&#124;</li>
+                    <li><a id="contact-anchor" role="button" class="menu-item">contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="home-container" class="slide slide-active">
+            <h1 class="slide-title">home slide</h1>
+        </div>
+
+        <div id="about-container" class="slide">
+            <h1 class="slide-title">about slide</h1>
+        </div>
+
+        <div id="beats-container" class="slide">
+            <h1 class="slide-title">beats slide</h1>
+        </div>
+
+        <div id="contact-container" class="slide">
+            <h1 class="slide-title">contact slide</h1>
+        </div>
+
+    </body>
+</html>
