@@ -26,11 +26,13 @@ function draw() {
 
 function toggleRain() {
     if (rainStopped) {
-        $("canvas").fadeIn(200);
         // Start rain
+        $("canvas").fadeIn(200);
+        $("#logo").css("background-image", "url(img/maze_logo_green.png)");
         rainStopped = false;
     } else {
         $("canvas").fadeOut(200);
+        $("#logo").css("background-image", "url(img/maze_logo.png)");
         setTimeout(function() {
             // Stop rain
             for (var i = 0; i < drops.length; i++) {
