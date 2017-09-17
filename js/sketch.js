@@ -41,7 +41,6 @@ function toggleRain() {
             initRain();
             rainStopped = true;
         }, 500);
-
     }
 }
 

@@ -41,38 +41,41 @@
 
     <body>
         <div id="bg"></div>
+        <div id="wrapper">
+            <div id="header">
+                <div id="menu-container">
+                    <ul id="menu-bar-1" class="menu-bar">
+                        <li class="active"><a id="home-anchor" role="button" class="menu-item">home</a></li>
+                        <li class="menu-bar-separator">&#124;</li>
+                        <li><a id="about-anchor" role="button" class="menu-item">about</a></li>
+                    </ul>
+                    <div title="start/stop the rain" id="logo"></div>
+                    <ul id="menu-bar-2" class="menu-bar">
+                        <li><a id="tracks-anchor" role="button" class="menu-item">tracks</a></li>
+                        <li class="menu-bar-separator">&#124;</li>
+                        <li><a id="contact-anchor" role="button" class="menu-item">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="slide-container">
+                <div id="home-container" class="slide slide-active">
+                    <h1 class="slide-title">home</h1>
+                </div>
 
-        <div id="header">
-            <div id="menu-container">
-                <ul id="menu-bar-1" class="menu-bar">
-                    <li class="active"><a id="home-anchor" role="button" class="menu-item">home</a></li>
-                    <li class="menu-bar-separator">&#124;</li>
-                    <li><a id="about-anchor" role="button" class="menu-item">about</a></li>
-                </ul>
-                <div title="start/stop the rain" id="logo"></div>
-                <ul id="menu-bar-2" class="menu-bar">
-                    <li><a id="tracks-anchor" role="button" class="menu-item">tracks</a></li>
-                    <li class="menu-bar-separator">&#124;</li>
-                    <li><a id="contact-anchor" role="button" class="menu-item">contact</a></li>
-                </ul>
+                <div id="about-container" class="slide">
+                    <h1 class="slide-title">about</h1>
+                </div>
+
+                <div id="tracks-container" class="slide">
+                    <ul id="track-list">
+                        <li class="first-row row"><span class="first-col">name</span><span class="second-col">bpm</span></li>
+                    </ul>
+                </div>
+
+                <div id="contact-container" class="slide">
+                    <h1 class="slide-title">contact</h1>
+                </div>
             </div>
         </div>
-
-        <div id="home-container" class="slide slide-active">
-            <h1 class="slide-title">home</h1>
-        </div>
-
-        <div id="about-container" class="slide">
-            <h1 class="slide-title">about</h1>
-        </div>
-
-        <div id="tracks-container" class="slide">
-            <h1 class="slide-title">tracks</h1>
-        </div>
-
-        <div id="contact-container" class="slide">
-            <h1 class="slide-title">contact</h1>
-        </div>
-
     </body>
 </html>
